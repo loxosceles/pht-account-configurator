@@ -9,7 +9,7 @@ ifndef version
 	export version := $(shell date +%Y%m%d-%H%M)
 endif
 
-DEPLOY_PREFIX ?= pht-account-configurator
+DEPLOY_PREFIX ?= loxcloud-account-configurator
 MANIFEST ?= cloudformation/AccountFactory-Manifest.yaml
 
 # Local to this Makefile Vars

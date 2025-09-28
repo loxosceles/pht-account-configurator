@@ -3,7 +3,7 @@
 # Template Description: Deploy StepFunction to configure new AWS accounts
 
 # These control how and where the cloudformation is executed
-StackName: pht-account-configurator
+StackName: loxcloud-account-configurator
 
 Region: us-east-1
 TimeOut: 15m
@@ -57,7 +57,7 @@ SourcedParameters:
 # Tags that apply to the stack. Will be inherited by some resources.
 ###########
 Tags:
-  Name: pht-account-configurator
+  Name: loxcloud-account-configurator
 
 ###########
 # Stack Policies protect resources from accidental deletion or replacement
